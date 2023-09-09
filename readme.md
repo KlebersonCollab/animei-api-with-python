@@ -211,3 +211,8 @@ Para gerar uma doc openapi siga os passos:
         'drf_yasg',
     ]
     ```
+---
+### Observações:
+O banco de dados está configurado para Postgres porém funciona tanto com sqlite quanto Oracle, MariaDB e Mysql, para configurar esse bancos você pode recorrer a documentação do django.
+
+### [Django Doc](https://docs.djangoproject.com/en/4.2/ref/databases/)
