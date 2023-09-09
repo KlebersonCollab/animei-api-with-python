@@ -1,14 +1,18 @@
 # Tasks
 
-- [x] Create Environment python (sucess)
+- [x] Crie o ambiente de desenvolvimento (sucess)
     
     ```bash
     python -m venv venv
     ```
-- [x] Select Environment to work (sucess)
+- [x] Set ambiente de desenvolvimento (sucess)
     
     ```bash
     source ./venv/bin/activate
     ```
+- [x] Instale todas as dependências do requiriments
 
-- [x] Follow readme.md
+    ```bash
+    pip install -r ./requeriments.txt
+    ```
+- [x] Agora siga os passos do readme.md

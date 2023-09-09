@@ -167,7 +167,7 @@ Inicie o servidor de desenvolvimento Django para testar sua API:
 python manage.py runserver
 ```
 
-Agora, você deve ter uma API simples que se comunica com um banco de dados usando um ORM Django. Você pode acessar seus endpoints API em http://localhost:8000/produtos/ (ou o caminho que você configurou) para obter os dados do banco de dados. Certifique-se de instalar o Django Rest Framework se você não o tiver feito para obter funcionalidades adicionais para suas APIs.
+Agora, você deve ter uma API simples que se comunica com um banco de dados usando um ORM Django. Você pode acessar seus endpoints API em http://localhost:8000/swagger/ (ou o caminho que você configurou) para obter os dados do banco de dados. Certifique-se de instalar o Django Rest Framework se você não o tiver feito para obter funcionalidades adicionais para suas APIs.
 
 10 - Criando seu super usuário:
 
