@@ -21,6 +21,7 @@ schema_view = get_schema_view(
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    
     path('api/v1/animes/', AnimeList.as_view()),
     path('api/v1/animes/<int:pk>/', AnimeDetail.as_view()),
 
