@@ -35,5 +35,6 @@ class Episode(models.Model):
     related_anime = models.ForeignKey(Anime, on_delete=models.CASCADE, related_name='episode')
     
     def __str__(self):
-        return f"{self.related_anime.name} - Episódio {self.episode}"
+        return f'Anime:{self.related_anime} - Episódio: {self.episode} - Qualidade: {self.quality} - Audio: {self.audio}'
+    
 
