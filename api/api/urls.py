@@ -8,15 +8,15 @@ from animei.views import AnimeDetail, AnimeList,EpisodeList,EpisodeDetail
 schema_view = get_schema_view(
     openapi.Info(
         title="Animei API",
-        default_version='v1',
+        default_version='v1.1',
         description="API para utilização do CRM de animes",
         #terms_of_service="https://www.romerosolutions.com/terms/",
         contact=openapi.Contact(email="klebersondsromero@gmail.com"),
         license=openapi.License(name="MIT"),
     ),
     public=True,
-    permission_classes=(permissions.AllowAny,),
-    
+    #permission_classes=(permissions.AllowAny,),
+    permission_classes=(permissions.IsAuthenticated,),
 )
 
 urlpatterns = [
