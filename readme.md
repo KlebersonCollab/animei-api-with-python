@@ -169,6 +169,8 @@ python manage.py runserver
 
 Agora, você deve ter uma API simples que se comunica com um banco de dados usando um ORM Django. Você pode acessar seus endpoints API em http://localhost:8000/swagger/ (ou o caminho que você configurou) para obter os dados do banco de dados. Certifique-se de instalar o Django Rest Framework se você não o tiver feito para obter funcionalidades adicionais para suas APIs.
 
+![Swagger](https://cdn.discordapp.com/attachments/1116505268788928574/1149942757369069568/image.png)
+
 10 - Criando seu super usuário:
 
 ```bash
